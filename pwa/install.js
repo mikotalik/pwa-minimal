@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/pwa/worker.js', { scope: '/' })
+  navigator.serviceWorker.register('pwa/worker.js', { scope: '/' })
 }
 
 let installPrompt
